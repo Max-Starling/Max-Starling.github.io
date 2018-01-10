@@ -1,6 +1,6 @@
 body {
     background-color: #28292a;
-    min-height: 100% !important;
+    min-height: 100%; 
 }
 
 .wrapper {
@@ -9,12 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     height: -webkit-fill-available;
-    
 }
 .wrapper .buttons-wrapper {
     padding: 10px;
+    
 }
-
 .wrapper .buttons-wrapper button {
     margin-right: 5px;
     margin-left: 5px;
@@ -28,9 +27,11 @@ body {
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
     outline: none;
+    transition-duration: 0.2s;
 }
 .wrapper .buttons-wrapper button:hover {
     background-color: #f0f0f0;
+    transition-duration: 0.2s;
 }
 input[type="text"] {
         /*Size & Position */
