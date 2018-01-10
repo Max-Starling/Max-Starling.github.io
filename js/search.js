@@ -16,8 +16,8 @@ function goToPage() {
     let searchValue = searchForm.elements.input.value;
     setTimeout(() =>{ 
         searchForm.elements.input.value = '';
-    }, 180);
+    }, 160);
     if (searchValue) {
-        window.location.href = `${"https://www.google.by/search?q="}${searchValue.toString()}`;
+        window.location.href = `${"https://www.google.com/search?q="}${searchValue.toString()}`;
     }  
 }

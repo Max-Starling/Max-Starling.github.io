@@ -4,17 +4,19 @@ body {
     min-width: 540px;
 }
 
-.wrapper {
+.content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 95vh;
 }
-.wrapper .buttons-wrapper {
+
+.content-wrapper .buttons-wrapper {
     padding: 10px;
 }
-.wrapper .buttons-wrapper button {
+
+.content-wrapper .buttons-wrapper button {
     margin-right: 5px;
     margin-left: 5px;
     background-color: #d4d4d4;
@@ -29,11 +31,14 @@ body {
     outline: none;
     transition-duration: 0.2s;
     cursor: pointer;
+    margin-bottom: 160px;
 }
-.wrapper .buttons-wrapper button:hover {
+
+.content-wrapper .buttons-wrapper button:hover {
     background-color: #f0f0f0;
     transition-duration: 0.2s;
 }
+
 input[type="text"] {
     width: 500px;
     height: 40px;	
