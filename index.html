@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
+        <title>Google</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" href="./src/favicon.png" type="image/png">
@@ -9,15 +10,31 @@
     <body>
         <div class="wrapper">
             <img src="./src/logo.png">
-            <input type="text" autofocus>
+            <form name="search">
+                <input name="input" type="text" autofocus>
+            </form>
             <div class="buttons-wrapper">
-                <button>
+                <button class="search-button">
                     Google Search
                 </button>
-                <button href="https://www.google.com/doodles">
+                <a href="https://www.google.com/doodles?hl=en">
+                <button>
                     I'm Feeling Lucky
                 </button>
+                </a>
             </div>
         </div>
+        <div class="footer">
+            <div class="block-left">
+                <a href="https://www.google.by/intl/en/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://www.google.by/intl/en/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+                <a href="https://www.google.by/intl/en/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+            </div>
+            <div class="block-right">
+                <a href="https://www.google.by/intl/en_by/policies/privacy/?fg=1">Privacy</a>
+                <a href="https://www.google.by/intl/en_by/policies/terms/regional.html">Terms</a>
+                <a href="https://www.google.by/preferences?hl=en&fg=1">Setting</a>
+            </div>
     </body>
+    <script src="./search.js"></script>
 </html>
